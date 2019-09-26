@@ -1,0 +1,43 @@
+/* comprobamos que los estilos estan funcionando */
+
+/* * {
+    background-color: blue;
+} */
+
+/* aplicando estilos con selector de etiqueta */
+
+/* div {
+    border: solid 2px red; 
+} */
+
+/* p {
+    border: solid 2px green; */
+    /* padding: 16px 5px 60px 0; */
+    /* padding: 16px 5px; */
+    /* padding-top: 30px;
+} */
+
+/* margin y padding */
+
+/* margin es el espacio que se genera de mi borde hacia afuera */
+
+/* padding es el espacio que se genera de mi borde hacia adentro */
+
+.navegacion {
+    border: solid 2px blue;
+    width: 100%;
+    height: 50px;
+    padding-top: 20px;
+}
+
+.contenido {
+    border: solid 2px #26800b;
+    width: 100%;
+    height: 200px;
+}
+
+a {
+    border: solid 1px #760b80;
+    margin-left: 20px; 
+    /* padding-right: 20px; */
+}
