@@ -47,21 +47,37 @@
 //Si tienes de 18 a 60 puedes conducir
 //Si tienes ms de 60 mejor no conducas
 
-let Pedad = prompt("Inserta tu edad")
-let edad = Number(Pedad)
-if(edad <= 15){
-    console.log("No puedes conducir");
-}else if(edad === 16 || edad === 17){
-    console.log("Puedes sacar tu permiso");
-}
-else if(edad >= 18 && edad <=60){   
-    console.log("Eres apto para manejar");
-}else if(edad > 60){
-    console.log("Mejor no menejes por tu seguridad y la mia :(");
-} else{
-   console.log("No te estoy entendiendo ;(");
-}
+// let Pedad = prompt("Inserta tu edad")
+// let edad = Number(Pedad)
+// if(edad <= 15){
+//     console.log("No puedes conducir");
+// }else if(edad === 16 || edad === 17){
+//     console.log("Puedes sacar tu permiso");
+// }
+// else if(edad >= 18 && edad <=60){   
+//     console.log("Eres apto para manejar");
+// }else if(edad > 60){
+//     console.log("Mejor no menejes por tu seguridad y la mia :(");
+// } else{
+//    console.log("No te estoy entendiendo ;(");
+// }
 
 
 
 
+// Validar si el usiario pone bien es password 
+// passoword -> perritoSalchicha123
+// Si entra, en mi consola "Bienvenido"
+//  Si no es la contraseña , mandar un alert que diga denegado
+
+let passoword = prompt('Ingresa tu contraseña');
+
+let perrito = 'perritoSalchicha123'
+
+if(passoword === perrito){
+    console.log('Bienvenido');
+}else{
+    alert('Acceso denegado')
+};
+
+//Juego de piedra papel o tijera de 2 jugadores :D
